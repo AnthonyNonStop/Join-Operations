@@ -1,0 +1,12 @@
+@#squadnamebabyseals=SEALS ALPHA ONE
+@#squadnamebabyseals=SEALS ALPHA TWO
+@#squadnamebabyseals=SEALS ALPHA THREE
+@#squadnamebabyseals=SEALS BRAVO ONE
+@#squadnamebabyseals=SEALS BRAVO TWO
+@#squadnamebabyseals=SEALS BRAVO THREE
+@#squadnamebabyseals=SEALS CHARLIE ONE
+@#squadnamebabyseals=SEALS CHARLIE TWO
+@#squadnamebabyseals=SEALS CHARLIE THREE
+@#squadnamebabyseals=SEALS DELTA ONE
+@#squadnamebabyseals=SEALS DELTA TWO
+@#squadnamebabyseals=SEALS DELTA THREE

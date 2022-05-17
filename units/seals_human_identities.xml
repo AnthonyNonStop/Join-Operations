@@ -1,0 +1,22 @@
+<HumanIdentities>
+	<!-- male -->
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 1"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 2"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 3"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 4"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 5"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 6"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 7"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 8"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 9"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 10"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 11"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 12"/>
+
+	<!-- female -->
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="1" customName="SEALLY 1"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="1" customName="SEALLY 2"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="1" customName="SEALLY 3"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="1" customName="SEALLY 4"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="1" customName="SEALLY 5"/>
+</HumanIdentities>

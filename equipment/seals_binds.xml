@@ -1,0 +1,110 @@
+<Equipment>
+<!--
+	We need to add existing equipment to our new unit. If we don't do this, they won't show up in the troops' customization menu.
+	We're going to setup BABY SEALS so that they can use all equipment in the game, while showing the multiple ways it can be done.
+-->
+
+<!-- you can do this, and specify each equipment and what classes of BABY SEALS can use it. You can only specify *some* classes for each equipment -->
+	<Bind eqp="Smoke Grenade Single">
+		<to name="SeaLionClass"/>
+		<to name="WalrusClass"/>
+		<to name="HarpSealClass"/>
+	</Bind>
+
+<!-- or you can do this and bind each equipment to ALL classes that BABY SEALS have defined -->
+	<Bind eqp="Frag Grenade Single" to="BABY SEALS"/>
+	<Bind eqp="Flashbang Single" to="BABY SEALS"/>
+
+<!-- you can also do it like this, specifying 'to' first then adding all equipment below  -->
+	<Bind to="BABY SEALS">
+		<eqp name="Stinger Single"/>
+		<eqp name="Smoke Grenade"/>
+		<eqp name="Smoke Grenade Kit"/>
+		<eqp name="Frag Grenade"/>
+		<eqp name="Frag Grenade Kit"/>
+		<eqp name="Flashbang"/>
+		<eqp name="Flashbang Kit"/>
+		<eqp name="Stinger"/>
+		<eqp name="Molotov Single"/>
+		<eqp name="Slap Charge"/>
+		<eqp name="Slap Charge Kit"/>
+		<eqp name="TEC Torch"/>
+	</Bind>
+
+<!-- you can also bind an entire equipment category directly, so instead of binding each singular helmet, we can bind them all at the same time. -->
+	<Bind eqp="Helmet" to="BABY SEALS"/>
+	<Bind eqp="HelmetNVG" to="BABY SEALS"/>
+	<!--
+	   These would be all the individual helmets/NVGs we should've otherwise specified:
+		<Bind eqp="HelmetACH" to="BABY SEALS"/>
+		<Bind eqp="HelmetFAST" to="BABY SEALS"/>
+		<Bind eqp="HelmetFASTMandible" to="BABY SEALS"/>
+		<Bind eqp="HelmetFASTRF" to="BABY SEALS"/>
+		<Bind eqp="HelmetIHPS" to="BABY SEALS"/>
+		<Bind eqp="CapUndercover" to="BABY SEALS"/>
+		<Bind eqp="CapBlackOps" to="BABY SEALS"/>
+		<Bind eqp="HelmetBumpBlackOps" to="BABY SEALS"/>
+		<Bind eqp="HelmetFASTBlackOps" to="BABY SEALS"/>
+		<Bind eqp="SantaHat" to="BABY SEALS"/>
+		
+		<Bind eqp="NVG" to="BABY SEALS"/>
+		<Bind eqp="NVG_02" to="BABY SEALS"/>	
+	-->
+	
+<!-- we could have also done that for all grenades above, by using: -->
+	<Bind eqp="Grenade" to="BABY SEALS"/>
+<!-- or for explosives, via: -->
+	<Bind eqp="Explosives" to="BABY SEALS"/>	
+
+<!-- bind all armor to seals -->
+	<Bind eqp="Armor" to="BABY SEALS"/>
+	<!--
+	  These would be all the individual armors we should've otherwise specified:
+		<Bind eqp="Rangers SFLCS Level III" to="BABY SEALS"/>
+		<Bind eqp="CIA TacVest Level III" to="BABY SEALS"/>
+		<Bind eqp="Rangers SFLCS Extended" to="BABY SEALS"/>
+		<Bind eqp="Rangers SFLCS Level IV Sides" to="BABY SEALS"/>
+		<Bind eqp="Rangers NoPlates" to="BABY SEALS"/>
+		<Bind eqp="CIA Concealable LVL2" to="BABY SEALS"/>
+		<Bind eqp="CIA Concealable LVL3A Limited" to="BABY SEALS"/>
+		<Bind eqp="CIA Concealable LVL3A" to="BABY SEALS"/>
+		<Bind eqp="Rangers Jumpable" to="BABY SEALS"/>
+		<Bind eqp="Rangers Jumpable Swimmer" to="BABY SEALS"/>
+		<Bind eqp="NWS Vest Level III" to="BABY SEALS"/>
+		<Bind eqp="NWS Vest Extended" to="BABY SEALS"/>
+		<Bind eqp="NWS Vest Level IV Front" to="BABY SEALS"/>
+		
+	  Shields are also defined as Armor, so they'll be included automatically, though they might not work for baby seals due to the base model they use, didn't test
+		<Bind eqp="NWS Shield Lvl III" to="BABY SEALS"/>
+		<Bind eqp="NWS Shield Lvl IV" to="BABY SEALS"/>
+	-->
+
+
+<!-- various support slot equipment -->
+	<Bind eqp="Breaching Charge" to="BABY SEALS"/>
+	<Bind eqp="Lockpick Machine" to="BABY SEALS"/>
+	<Bind eqp="Dynamic Hammer" to="BABY SEALS"/>
+	<Bind eqp="Spy Camera" to="BABY SEALS"/>
+	<Bind eqp="AT4 Rocket Launcher" to="BABY SEALS"/>
+	<Bind eqp="RPG 26 CIA BOps" to="BABY SEALS"/>
+	<Bind eqp="Poncho" to="BABY SEALS"/>
+	<Bind eqp="MWS RPG 7" to="BABY SEALS"/>
+	
+<!-- now this is a big one: we're going to bind ALL firearms in the game to baby seals 
+	Ideally you only want some of them added, like all Rangers weapons or CIA weapons. 
+	There is no quick way to do that, you will need to go through all firearm xml files and add them here one by one, like:
+	<Bind to="BABY SEALS">
+		<eqp name="MP5A"/>
+		<eqp name="MP5SD"/>
+		<eqp name="M16A4"/>
+		<eqp name="M9 Pistol"/>
+		
+		... and keep doing this for all firearms you want to show up there
+	</Bind>
+	
+	The firearms files are in data/equipment/ as follows:
+		firearms_rifles.xml, firearms_pistols.xml, firearms_cia.xml, firearms_pistols_cia.xml, firearms_nwswat.xml
+-->
+	<Bind eqp="Firearm" to="BABY SEALS"/>
+	
+</Equipment>
