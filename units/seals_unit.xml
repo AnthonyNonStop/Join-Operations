@@ -1,7 +1,7 @@
 <Units>
     <!--
         'name' uniquely identifies this unit throughout the xml files (like in humans.xml)
-        'nameUI' is the localized version that shows up in the game's UI, therefore it's not unique		
+        'nameUI' is the localized version that shows up in the game's UI, therefore it's not unique
 		'@#squadnamebabyseals' refers to the pool of random names assigned to a new BabySeals squad, defined in data/localization/seals_squadname_pool.txt
 		'supply' is how much a single trooper from that class will count in total supply allowed for a map. One slot = 100 supply
     -->
@@ -14,13 +14,9 @@
         rndNameEntry="@#squadnamebabyseals">
 
         <Classes>
-			<!--
-				'name' links to a human defined in seals_humans.xml
-				'nameUI' is the localized version that shows up in the game's UI, therefore it's not unique
-			-->
             <Class name="SeaLionClass"  nameUI="SEA LION" 	numSlots="8" supply="100" iconTex="data/textures/gui/deploy/class_icon_undercover.dds"/>
             <Class name="WalrusClass" 	nameUI="WALRUS" 	numSlots="2" supply="100" iconTex="data/textures/gui/deploy/class_icon_blackops.dds"/>
-			<Class name="HarpSealClass" nameUI="HARP SEAL" 	numSlots="2" supply="100" iconTex="data/textures/gui/deploy/class_icon_blackops.dds"/>
+  			    <Class name="HarpSealClass" nameUI="HARP SEAL" 	numSlots="2" supply="100" iconTex="data/textures/gui/deploy/class_icon_blackops.dds"/>
         </Classes>
 
         <TrooperRanks>
