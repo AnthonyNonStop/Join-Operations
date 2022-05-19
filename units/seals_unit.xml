@@ -6,17 +6,24 @@
 		'supply' is how much a single trooper from that class will count in total supply allowed for a map. One slot = 100 supply
     -->
     <Unit
-        name="BABY SEALS"
-        nameUI="BABY SEALS"
+        name="JO"
+        nameUI="Nowhereaki joint operations"
         description="cute little baby seals"
         flagTex="data/textures/baby_seals_squad_bg.dds"
         flagColor="f0f0f0"
         rndNameEntry="@#squadnamebabyseals">
 
         <Classes>
-            <Class name="SeaLionClass"  nameUI="SEA LION" 	numSlots="8" supply="100" iconTex="data/textures/gui/deploy/class_icon_undercover.dds"/>
-            <Class name="WalrusClass" 	nameUI="WALRUS" 	numSlots="2" supply="100" iconTex="data/textures/gui/deploy/class_icon_blackops.dds"/>
-  			    <Class name="HarpSealClass" nameUI="HARP SEAL" 	numSlots="2" supply="100" iconTex="data/textures/gui/deploy/class_icon_blackops.dds"/>
+          <Class name="Assault" 	nameUI="@unit_rangers_assault"   numSlots="8" supply="100" iconTex="data/textures/gui/deploy/class_icon_assaulter.dds"/>
+    			<Class name="Support" 	nameUI="@unit_rangers_support"   numSlots="4" supply="100" iconTex="data/textures/gui/deploy/class_icon_support.dds"/>
+    			<Class name="Marksman"	nameUI="@unit_rangers_marksman"  numSlots="4" supply="100" iconTex="data/textures/gui/deploy/class_icon_marksman.dds"/>
+    			<Class name="Grenadier" nameUI="@unit_rangers_grenadier" numSlots="4" supply="100" iconTex="data/textures/gui/deploy/class_icon_grenadier.dds"/>
+          <Class name="Undercover" nameUI="@unit_cia_undercover" numSlots="2" supply="100" iconTex="data/textures/gui/deploy/class_icon_undercover.dds"/>
+          <Class name="BlackOps"   nameUI="@unit_cia_blackops"   numSlots="2" supply="100" iconTex="data/textures/gui/deploy/class_icon_blackops.dds"/>
+          <Class name="SwatLeader" 	nameUI="@unit_nowheraki_leader"	  numSlots="1"  supply="100" iconTex="data/textures/gui/deploy/class_icon_nowheraki_leader.dds"/>
+          <Class name="SwatAssaulter" nameUI="@unit_nowheraki_assault"  numSlots="8"  supply="100" iconTex="data/textures/gui/deploy/class_icon_nowheraki_assaulter.dds"/>
+          <Class name="SwatSapper"	nameUI="@unit_nowheraki_sapper"	  numSlots="2"  supply="100" iconTex="data/textures/gui/deploy/class_icon_nowheraki_sapper.dds"/>
+          <Class name="SwatMilitia" 	nameUI="@unit_nowheraki_militia"  numSlots="12" supply="50"  iconTex="data/textures/gui/deploy/class_icon_nowheraki_militia.dds"/>
         </Classes>
 
         <TrooperRanks>
