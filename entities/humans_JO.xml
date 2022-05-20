@@ -11,7 +11,7 @@
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
 			unit="JO"
-			class="Undercover">
+			class="JO_Undercover">
 
 			<Id name="JO_CIA Undercover" gender="0" voicePack="male_very_american"/>
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
@@ -43,8 +43,8 @@
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
-			unit="CIA"
-			class="BlackOps">
+			unit="JO"
+			class="JO_BlackOps">
 
 			<Id name="CIA BlackOps" portrait="data/textures/portraits/ranger56.dds" gender="0" voicePack="male_very_american"/>
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
@@ -81,8 +81,8 @@
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
-			unit="Rangers"
-			class="Assault">
+			unit="JO"
+			class="JO_Assault">
 
 			<Id name="Ranger Assaulter" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
@@ -119,8 +119,8 @@
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
-			unit="Rangers"
-			class="Support">
+			unit="JO"
+			class="JO_Support">
 
 			<Id name="Ranger Support" portrait="data/textures/portraits/ranger3.dds" gender="0" voicePack="male_very_american"/>
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
@@ -159,8 +159,8 @@
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
-			unit="Rangers"
-			class="Marksman">
+			unit="JO"
+			class="JO_Marksman">
 
 			<Id name="Ranger Marksman" portrait="data/textures/portraits/ranger5.dds" gender="0" voicePack="male_very_american"/>
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
@@ -194,8 +194,8 @@
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
-			unit="Rangers"
-			class="Grenadier">
+			unit="JO"
+			class="JO_Grenadier">
 
 			<Id name="Ranger Grenadier" portrait="data/textures/portraits/ranger6.dds" gender="0" voicePack="male_very_american"/>
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
@@ -227,8 +227,8 @@
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
-			unit="Nowheraki"
-			class="SwatAssaulter">
+			unit="JO"
+			class="JO_SwatAssaulter">
 
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
 			<Brain suppressionRecovery="20.0"/>
@@ -254,8 +254,8 @@
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
-			unit="Nowheraki"
-			class="SwatLeader">
+			unit="JO"
+			class="JO_SwatLeader">
 
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
 			<Brain suppressionRecovery="24.0"/>
@@ -286,8 +286,8 @@
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
-			unit="Nowheraki"
-			class="SwatSapper">
+			unit="JO"
+			class="JO_SwatSapper">
 
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
 			<Brain suppressionRecovery="15.0"/>
@@ -316,8 +316,8 @@
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
-			unit="Nowheraki"
-			class="SwatMilitia">
+			unit="JO"
+			class="JO_SwatMilitia">
 
 			<FOV degrees="80" distanceMeters="999" eyeRadiusMeters="0.6"/>
 			<Brain suppressionRecovery="12.0"/>

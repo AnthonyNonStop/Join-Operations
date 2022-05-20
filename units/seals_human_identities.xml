@@ -1,6 +1,6 @@
 <HumanIdentities>
 	<!-- male -->
-	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 1"/>
+	<Portrait tex="data/textures/portraits/seal1.dds" unit="JO" gender="0" customName="SEAL 1"/>
 	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 2"/>
 	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 3"/>
 	<Portrait tex="data/textures/portraits/seal1.dds" unit="BABY SEALS" gender="0" customName="SEAL 4"/>
